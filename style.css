@@ -1,14 +1,14 @@
-#header-padding {
+#header-container {
     padding-top: env(safe-area-inset-top);
-    padding-left: env(safe-area-inset-left);
-    padding-right: env(safe-area-inset-right);
+    padding-left: calc(15px + env(safe-area-inset-left));
+    padding-right: calc(15px + env(safe-area-inset-right));
 }
-#main-padding {
-    padding-left: env(safe-area-inset-left);
-    padding-right: env(safe-area-inset-right);
+#main-container {
+    padding-left: calc(15px + env(safe-area-inset-left));
+    padding-right: calc(15px + env(safe-area-inset-right));
 }
-#footer-padding {
-    padding-left: env(safe-area-inset-left);
-    padding-right: env(safe-area-inset-right);
+#footer-container {
+    padding-left: calc(15px + env(safe-area-inset-left));
+    padding-right: calc(15px + env(safe-area-inset-right));
     padding-bottom: env(safe-area-inset-bottom);
 }
